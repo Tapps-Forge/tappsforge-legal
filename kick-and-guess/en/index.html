@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kick &amp; Guess — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0B1120;
+      --surface: #141E33;
+      --primary: #2ECC71;
+      --text: #F7F6F3;
+      --text-secondary: #B0B0B0;
+      --text-tertiary: #707070;
+      --border: #1E2A45;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .brand h1 {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: var(--primary);
+    }
+
+    .brand p {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 36px;
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 20px;
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      background: var(--primary);
+      border-radius: 50%;
+    }
+
+    ul li:last-child { margin-bottom: 0; }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-email {
+      display: inline-block;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+      margin-top: 4px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+
+    .footer span {
+      color: var(--text-tertiary);
+    }
+
+    .sdk-block {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    .sdk-block:last-child { margin-bottom: 0; }
+
+    .sdk-block h3 { margin-bottom: 6px; }
+
+    .sdk-block p { font-size: 14px; margin-bottom: 6px; }
+
+    .sdk-block a { font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="brand">
+      <h1>KICK &amp; GUESS</h1>
+      <p>Privacy Policy</p>
+    </div>
+
+    <div class="meta">
+      <span>Effective: April 5, 2026</span>
+      <span>Last updated: April 5, 2026</span>
+    </div>
+
+    <!-- Summary -->
+    <div class="card">
+      <h2>Summary</h2>
+      <p>
+        Kick &amp; Guess is a hangman-style football trivia game developed by TaPps Forge.
+        We built it to be as private as possible — it works completely offline,
+        stores all data locally on your device, and requires no account.
+      </p>
+      <p>This policy explains what data is collected, why, and how it is managed.</p>
+    </div>
+
+    <!-- Data we do NOT collect -->
+    <div class="card">
+      <h2>Data we do not collect</h2>
+      <ul>
+        <li>We do not collect your name, email address, or any personal identifier</li>
+        <li>We have no user accounts or sign-up process</li>
+        <li>We do not sell your data to third parties</li>
+        <li>Game progress, lives, streaks, and settings are stored solely on your device</li>
+      </ul>
+    </div>
+
+    <!-- Third parties -->
+    <div class="card">
+      <h2>Data collected by third-party services</h2>
+      <p>Kick &amp; Guess integrates the following third-party SDKs that may independently collect data under their own privacy policies:</p>
+
+      <div class="sdk-block">
+        <h3>Google AdMob</h3>
+        <p>Displays interstitial and rewarded ads to free users. It may collect device identifiers, IP address, and ad interaction data for contextual or personalized advertising.</p>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy &rarr;</a>
+      </div>
+
+      <div class="sdk-block">
+        <h3>RevenueCat</h3>
+        <p>Manages in-app purchases and Pro unlock validation. It collects purchase receipts and device identifiers to verify and restore purchases.</p>
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Notifications -->
+    <div class="card">
+      <h2>Local notifications</h2>
+      <p>
+        Kick &amp; Guess may send local notifications to remind you about the daily challenge.
+        These notifications are scheduled locally on your device and are not sent to any server.
+        You can disable them at any time from the app Settings or your device Settings.
+      </p>
+    </div>
+
+    <!-- Purchases -->
+    <div class="card">
+      <h2>Purchases</h2>
+      <p>
+        The Kick &amp; Guess Pro unlock is a one-time purchase processed by Google Play.
+        Payment data is handled entirely by the platform and never by TaPps Forge.
+        RevenueCat is used solely to verify and restore the purchase status.
+      </p>
+    </div>
+
+    <!-- Age -->
+    <div class="card">
+      <h2>Minimum age requirement</h2>
+      <p>
+        Kick &amp; Guess is intended for users aged 13 and older. The app content is suitable
+        for all ages (PEGI 3), but we restrict access to ages 13+ due to the inclusion of
+        advertising served by Google AdMob, in compliance with Google Play advertising policies.
+      </p>
+      <p>
+        We do not knowingly collect personal information from children under 13. If you believe
+        a minor has accessed or provided personal information through the app, please contact us
+        and we will address it promptly.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <h2>Contact</h2>
+      <p>If you have questions about this privacy policy, you can reach us at:</p>
+      <a class="contact-email" href="mailto:hello@tappsforge.com">hello@tappsforge.com</a>
+    </div>
+
+    <!-- Changes -->
+    <div class="card">
+      <h2>Changes to this policy</h2>
+      <p>
+        We may update this privacy policy from time to time. When we do, we will update the date
+        at the top of this page. Continued use of the app after changes constitutes acceptance
+        of the updated policy.
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 TaPps Forge &middot; <span>Kick &amp; Guess</span></p>
+    </div>
+
+  </div>
+</body>
+</html>
